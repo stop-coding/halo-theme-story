@@ -9,13 +9,13 @@ general:
       name: title
       label: 首页标题
       type: textarea
-      default: '<span class="b">Y</span>
-                <span class="b">U</span>
+      default: '<span class="b">H</span>
+                <span class="b">O</span>
                 <a href="/">
                 <span class="w">M</span>
                 </a>
-                <span class="b">O</span>
-                <span class="b">E</span>'
+                <span class="b">E</span>
+                '
     locale:
       name: locale
       label: 日期显示中/英文

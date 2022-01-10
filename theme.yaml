@@ -1,11 +1,11 @@
-id: txperl_story
-name: Story
+id: my_story
+name: Hongch
 author:
-  name: Trii Hsia
-  website: https://yumoe.com
+  name: hongchunhua
+  website: https://hongch.freeb.vip
 description:
 logo:
-website: https://github.com/halo-dev/halo-theme-story
-repo: https://github.com/halo-dev/halo-theme-story
+website: https://github.com/stop-coding/halo-theme-story
+repo: https://github.com/stop-coding/halo-theme-story
 version: 1.2.1
 require: 1.3.0

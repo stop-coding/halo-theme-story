@@ -44,9 +44,13 @@
 							<a href="${pagination.prevPageFullPath!}">&laquo;</a>
 						</li>
 					</#if>
-					<li>
-						<a href="#">${posts.number+1}</a>
-					</li>
+					<#list pagination.rainbowPages as number>
+                       <#if number.isCurrent>
+                        <li class="current"><a>${number.page!}</a></li>
+                       <#else>
+                          <li><a href="${number.fullPath!}">${number.page!}</a></li>
+                       </#if>
+                    </#list>
 					<#if pagination.hasNext>
 						<li class="next">
 							<a href="${pagination.nextPageFullPath!}">&raquo;</a>

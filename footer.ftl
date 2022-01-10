@@ -3,8 +3,7 @@
     <div class="container-fluid">
         <div class="row">
         <div class="col-12">
-            &copy; ${.now?string('yyyy')} <a href="${blog_url!}">${blog_title!}</a>.
-            Using <a target="_blank" href="https://halo.run">Halo</a> & <a target="_blank" href="https://yumoe.com/">Story</a>.
+            &copy; 2015 - ${.now?string('yyyy')} <a> Power by </a><a href="https://hongch.freeb.vip/archives/guan-yu-wo">${blog_title!}</a>. Using by Halo and Story
         </div>
         <div class="col-12">
             <@global.footer />

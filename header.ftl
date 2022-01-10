@@ -58,17 +58,11 @@
         <div class="logo">
             <div class="header-logo">
                 ${settings.title!'<span class="b">Y</span><span class="b">U</span><a href="/"><span class="w">M</span></a><span class="b">O</span><span class="b">E</span>'}
-                <a id="btn-menu" href="javascript:isMenu();">
-                    <span class="b">·</span>
-                </a>
-                <a href="javascript:isMenu1();">
-                    <span id="menu-1" class="bf">1</span>
-                </a>
-                <a href="javascript:isMenu2();">
-                    <span id="menu-2" class="bf">2</span>
+                <a id="btn-menu" href="javascript:isMenu1();">
+                    <span class="b">···</span>
                 </a>
                 <a href="javascript:isMenu3();">
-                    <span id="menu-3" class="bf">3</span>
+                    <span id="menu-3" class="w">3</span>
                 </a>
             </div>
             <div id="menu-page">
